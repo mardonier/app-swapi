@@ -4,7 +4,6 @@ import axios from "axios"
 const Personagens = () => {
 
     const [people, setPeople] = useState([])
-
     const getPeople = () => {
         axios.get(`https://swapi.dev/api/people`, {})
             .then ((res) => {
@@ -26,8 +25,9 @@ const Personagens = () => {
                                 <p>Altura: {people.height}</p>
                                 <p>Cor da pele: {people.skin_color}</p>
                                 <p>Peso: {people.mass}</p>
+                                <p>Ano de nascimento: {people.birth_year}</p>
+                                <p>Criado: {people.created}</p>
                                 <p>Gênero: {people.gender}</p><hr></hr>
-                                
                             </div>
                         )
                     })}

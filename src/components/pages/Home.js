@@ -8,7 +8,7 @@ function Home() {
       <h1>
         Bem-vindo ao 
         <span>Star Wars Ascan Atlântico</span>
-        <img src={logo} alt="Costs" />
+        <img src={'https://br.web.img3.acsta.net/newsv7/22/05/19/23/59/2239018.jpg'} alt="Costs" />
       </h1>
     </section>
   )

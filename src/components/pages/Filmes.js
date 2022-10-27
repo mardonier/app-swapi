@@ -21,11 +21,13 @@ const Films = () => {
                 <div>
                     {films.map((film) => {
                         return (
-                            <div style={{fontFamily:"Roboto", fontWeight:300}} className="card-body card my-1 col-12 col-lg-6 d-inline-block ">
-                                <h1 style={{fontFamily:"Roboto", fontWeight:400}} className="card-text">{film.title}</h1>
-                                <p className="card-text">Diretor: {film.director}</p>
-                                <p className="card-text">Episódio: {film.episode_id}</p>
-                                <p className="card-text">Texto de Abertura: {film.opening_crawl}</p><hr></hr>
+                            <div style={{fontFamily:"Roboto", fontWeight:300}}>
+                                <h1 style={{fontFamily:"Roboto", fontWeight:400}}>{film.title}</h1>
+                                <p>Diretor: {film.director}</p>
+                                <p>Episódio: {film.episode_id}</p>
+                                <p>Data de lançamento: {film.release_date}</p>
+                                <p>Produtor: {film.producer}</p>
+                                <p>Texto de Abertura: {film.opening_crawl}</p><hr></hr>
                             </div>
                         )
                     })}
