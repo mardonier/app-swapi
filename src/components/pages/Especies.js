@@ -17,7 +17,7 @@ const Especies = () => {
     }, [])
     return (
         <div>
-            <h1 style={{fontFamily:"Roboto", fontWeight:600}}>Especies</h1><hr></hr>
+            <h1 style={{fontFamily:"Roboto", fontWeight:600}}>Espécies</h1><hr></hr>
                 <div>
                     {especies.map((species) => {
                         return (
