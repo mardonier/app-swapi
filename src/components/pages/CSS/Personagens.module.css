@@ -1,0 +1,29 @@
+.personagens_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4em;
+}
+
+.personagens_container h1 {
+  font-size: 3.0em;
+  margin-bottom: 0.5em;
+}
+
+.personagens_container h1 span {
+  color: #3385ff;
+  padding: 0 0.2em;
+  background-color: #222;
+}
+
+.personagens_container p {
+  margin-bottom: 1.5em;
+  color: #7b7b7b;
+}
+
+.personagens_container img {
+  width: 40px;
+  margin: 0.5em 0;
+}
