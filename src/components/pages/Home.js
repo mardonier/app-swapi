@@ -9,7 +9,9 @@ function Home() {
         <span> Star Wars Ascan Atlântico</span>
         <img src={'https://br.web.img3.acsta.net/newsv7/22/05/19/23/59/2239018.jpg'} alt="Ascan" />
       </h1>
+      <h3>By Mardonier</h3>
     </section>
+    
   )
 }
 

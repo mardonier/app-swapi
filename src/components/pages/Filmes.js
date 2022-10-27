@@ -16,7 +16,7 @@ const Films = () => {
        getFilms()
     }, [])
     return (
-        <div>
+         <div>
             <h1 style={{fontFamily:"Roboto", fontWeight:600}}>Filmes</h1>
                 <div>
                     {films.map((film) => {
